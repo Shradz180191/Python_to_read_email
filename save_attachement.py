@@ -56,6 +56,5 @@ def process_mailbox(M):
             fp.write(part.get_payload(decode=True))
             fp.close()
             
-#M.login('testingpython7@gmail.com', getpass.getpass())
-M.login('testingpython7@gmail.com', 'Synechron18@@')
+M.login('testingpython7@gmail.com', getpass.getpass())
 process_mailbox(M)
